@@ -1,0 +1,42 @@
+
+{
+  "resourceType": "Patient",
+  "identifier": "19765",
+  "active": "",
+  "name": "Vicent Lemaire",
+  "telecom": "",
+  "gender": "male",
+  "birthDate": "09/04/1991",
+  "deceasedBoolean": "",
+  "deceasedDateTime": "01/03/2022",
+  "address": "Paris 16e",
+  "maritalStatus": "Maried",
+  "multipleBirthBoolean": "",
+  "multipleBirthInteger": "",
+  "photo": "",
+  "contact": [
+    {
+      "relationship": "mother",
+      "name": "Miranda Bailey",
+      "telecom": "",
+      "address": "Brunoy",
+      "gender": "<code>",
+      "organization": "",
+      "period": "}"
+    }
+  ],
+  "communication": [
+    {
+      "language": "",
+      "preferred": ""
+    }
+  ],
+  "generalPractitioner": "",
+  "managingOrganization": "",
+  "link": [
+    {
+      "other": "",
+      "type": ""
+    }
+  ]
+}

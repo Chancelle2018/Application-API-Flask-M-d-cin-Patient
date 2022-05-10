@@ -1,0 +1,1 @@
+{"utilisateur": [{"login": "842302", "mdp": "1234", "role": "patient", "Nom":"Dupont", "Prenom":"Lucie"}, {"login": "84348301", "mdp": "5678", "role": "patient2", "Nom":"Orilah", "Prenom":"Johana"}, {"login": "0000", "mdp": "toto", "role": "medecin", "Nom":"Jean_Marc", "Prenom":"Louis"}]}

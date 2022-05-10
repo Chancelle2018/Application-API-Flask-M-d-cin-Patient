@@ -1,0 +1,54 @@
+<!DOCTYPE html><!--type du document-->
+<html>
+	<!--onglet-->
+	<head>
+		<title>{{title}}</title>
+		<meta charset="utf-8">
+		<!--link rel="stylesheet" href="Bienvenu_Page.css"-- /> <!--on va faire la mise en page dans le fichier p1.css-->
+	</head>
+
+	<style>
+    body {
+      background-color:#d8bfd8;
+    }
+	</style>
+
+	<!--corps-->
+	<body>
+	
+	 <form action="" method="GET">
+			<h2>Identification du patient</h2>
+			<br><label for="identifiant"> Identifiant</label>
+			<input type="text" name="id"placeholder="identifiant"></br>
+			<br><input type="submit" value="Go !"/></br>
+			
+      <h3>Infomations du Patient </h3>
+      <br><label for="Nom"> Nom:{{Patient['name']}}</label>
+      <br><label for="Genre"> Genre:{{Patient['gender']}}</label>
+      <br><label for="Date"> Date de naissance:{{Patient['birthDate']}}</label>
+      <br><label for="Adresse"> Adresse:{{Patient['address']}}</label>
+      <h3>Infomations traitement </h3>
+      <br><label for="note"> Note:{{Medication['note']}}</label>
+      <br><label for="Durée"> Durée:{{Medication['dispenseRequest'][0]['initialFill']['duration']}}</label>
+      <br><label for="id"> Identification du médoc:{{Medication['groupIdentifier']}}</label>
+      <br><label for="dosage"> Dosage:{{Medication['dosageInstruction']}}</label>
+
+
+		</>
+	</form>
+	
+	
+	
+	
+	
+		<!-- en-tête -->
+		<header>
+			<nav>
+				<a href="/">Deconnecter </a> 
+        		
+        		
+			</nav>
+		</header>
+		
+	</body>
+</html>

@@ -1,0 +1,42 @@
+
+{
+  "resourceType": "Medecin",
+  "identifier": "12345",
+  "active": "",
+  "name": "Moi",
+  "telecom": "",
+  "gender": "male",
+  "birthDate": "01/03/1989",
+  "deceasedBoolean": "",
+  "deceasedDateTime": "01/03/2022",
+  "address": "91 rue de Godeaux Brunoy",
+  "maritalStatus": "Single",
+  "multipleBirthBoolean": "",
+  "multipleBirthInteger": "",
+  "photo": "",
+  "contact": [
+    {
+      "relationship": "mother",
+      "name": "Miranda Bailey",
+      "telecom": "",
+      "address": "Seattle",
+      "gender": "<code>",
+      "organization": "",
+      "period": "}"
+    }
+  ],
+  "communication": [
+    {
+      "language": "",
+      "preferred": ""
+    }
+  ],
+  "generalPractitioner": "",
+  "managingOrganization": "",
+  "link": [
+    {
+      "other": "",
+      "type": ""
+    }
+  ]
+}
